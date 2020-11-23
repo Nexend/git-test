@@ -1,9 +1,9 @@
-body{
-    font-size: 24px;
+div{
+    display: inline-block;
 }
-.text-info{
-    color: green;
-}
-.list{
-    color: orange;
+span{
+    display: block;
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
 }
