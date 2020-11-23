@@ -1,28 +1,17 @@
-a:link {
+ul > li {
+  margin-bottom: 16px;
+}
+ul > li:first-child > span {
+  background-color: red;
   color: white;
+}
+ul > li:last-child > span {
   background-color: black;
-}
-a:visited {
-  color: green;
-  background-color: orange;
-}
-a:active,
-.some-button:active {
-  border: 3px solid red;
-}
-a:hover {
-  font-size: 24px;
-}
-.some-button[disabled] {
-  border: 2px dashed grey;
-}
-.some-button:hover:enabled {
   color: white;
+}
+ul > li:nth-child(even) {
+  margin-left: 16px;
+}
+.paragraphs > p:nth-of-type(odd) {
   background-color: grey;
-}
-.search:focus {
-  background-color: orange;
-}
-.confirm-checkbox:checked {
-  margin-left: 20px;
 }
