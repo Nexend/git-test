@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 div {
   margin-left: 50px;
   margin-top: 50px;
@@ -21,9 +24,8 @@ div {
   background-color: aquamarine;
 }
 .triangle {
-  width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid brown;
-  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  border: 50px solid transparent;
+  border-top-color: brown;
 }
