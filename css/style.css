@@ -17,11 +17,13 @@ ul {
 .navigation {
   height: 40px;
 }
+.nav-list {
+  display: flex;
+}
 .nav-item {
   color: white;
   line-height: 40px;
   margin-left: 16px;
-  display: inline-block;
 }
 .content {
   background-color: beige;
