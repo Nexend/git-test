@@ -1,28 +1,10 @@
-html {
-  font-size: 24px;
-}
-
-div {
-  margin: 16px;
-  border: 1px solid burlywood;
-}
-
-.horizontal > span {
-  background-color: aqua;
-}
-.vertical > span {
+div.block {
   background-color: coral;
+  margin: 8px;
+  height: 100px;
+  min-width: 100px;
 }
-.horizontal {
-  height: 50px;
-  justify-content: space-around;
-  align-items: center;
+.container {
   display: flex;
-}
-.vertical {
-  height: 200px;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
+  flex-wrap: wrap;
 }
