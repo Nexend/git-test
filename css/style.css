@@ -1,22 +1,17 @@
-.block {
-  height: 300px;
-  width: 100%;
+* {
+  box-sizing: border-box;
 }
-.block_red {
-  background-color: red;
-}
-.block_green {
-  background-color: green;
-}
-.block_blue {
-  background-color: blue;
-}
-.block_yellow {
-  background-color: yellow;
-}
-.block_black {
-  background-color: black;
-}
-.container {
+header {
   display: flex;
+  justify-content: center;
+}
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  min-width: calc(100% - 300px / 2);
+}
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
 }
