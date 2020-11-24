@@ -11,9 +11,9 @@ header {
   background-color: bisque;
   flex-grow: 1;
   width: 300px;
+  flex-shrink: 0;
 }
 .articles-list {
-  min-width: 300px;
   display: flex;
   flex-wrap: wrap;
 }
