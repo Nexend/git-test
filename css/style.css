@@ -3,9 +3,9 @@
 }
 .thumb {
   padding: 8px;
-  cursor: all-scroll;
 }
 .gallery {
   display: flex;
   overflow-x: auto;
+  cursor: all-scroll;
 }
