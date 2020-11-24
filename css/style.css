@@ -1,19 +1,14 @@
-* {
-  box-sizing: border-box;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-header {
-  display: flex;
-  justify-content: center;
+.notDisplayed {
+  display: none;
 }
-.article {
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  flex-grow: 1;
-  flex-basis: 300px;
-  flex-shrink: 0;
+.isHidden {
+  visibility: hidden;
 }
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
+.isVisible {
+  visibility: visible;
 }
