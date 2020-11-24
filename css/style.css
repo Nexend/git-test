@@ -9,13 +9,11 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  width: 300px;
   flex-grow: 1;
-}
-.article p {
-  min-width: 300px;
+  width: 300px;
 }
 .articles-list {
+  min-width: 300px;
   display: flex;
   flex-wrap: wrap;
 }
