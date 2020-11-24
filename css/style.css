@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 .thumb {
-  padding: 8px;
+  margin: 8px;
 }
 .gallery {
   display: flex;
   overflow-x: auto;
   cursor: all-scroll;
 }
+
