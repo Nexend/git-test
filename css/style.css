@@ -24,3 +24,7 @@ section {
   background-color: green;
   float: left;
 }
+.container {
+  width: 50%;
+  float: left;
+}
