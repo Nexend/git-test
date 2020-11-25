@@ -1,15 +1,9 @@
-* {
-  box-sizing: border-box;
+div.rectangle {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
 }
-html {
-  font-size: 18px;
-}
-.properties-list {
-  list-style-type: none;
-  line-height: 32px;
-  color: #f39;
+.text.new::first-letter {
+  color: green;
   font-size: 24px;
-}
-.properties-list__item {
-  padding: 8px;
 }
