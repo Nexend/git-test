@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-.main-video {
-  width: 500px;
-  margin-top: 50px;
-  margin: 200px auto 0;
+iframe {
+  margin: 100px auto;
   display: block;
+  width: 500px;
+  height: 400px;
 }
