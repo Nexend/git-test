@@ -6,8 +6,19 @@
 }
 .form-control input {
   margin: 8px;
-  display: block;
 }
-.languages input{
-  display: inline-block;
+.languages input {
+  margin: 0;
+}
+textarea {
+  margin-left: 8px;
+}
+button {
+  margin-left: 8px;
+}
+select {
+  margin-left: 8px;
+}
+input[type="radio"] {
+  margin-left: 8px;
 }
