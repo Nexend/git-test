@@ -5,7 +5,6 @@ html {
   font-size: 18px;
 }
 .properties-list {
-  padding: 8px;
   margin: 0;
 }
 .properties-list__item {
@@ -13,4 +12,5 @@ html {
   color: #f39;
   font-size: 24px;
   list-style-type: none;
+  padding: 8px;
 }
