@@ -1,6 +1,6 @@
 .form-control {
   margin: 32px;
 }
-input {
-  margin: 8px;
+.container input {
+  margin-bottom: 8px;
 }
