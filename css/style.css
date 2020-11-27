@@ -11,11 +11,13 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: right;
-  line-height: 40px;
 }
 td,
 th {
   padding: 4px;
+}
+tr {
+  line-height: 40px;
 }
 th {
   background-color: aqua;
