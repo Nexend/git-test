@@ -11,8 +11,28 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: right;
+  line-height: 40px;
 }
 td,
 th {
   padding: 4px;
+}
+th {
+  background-color: aqua;
+}
+.container {
+  overflow-x: auto;
+}
+tfoot {
+  font-weight: 700;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tbody > tr:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+caption {
+  margin-bottom: 8px;
 }
