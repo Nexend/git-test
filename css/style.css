@@ -1,19 +1,36 @@
-.container-icons {
-  display: flex;
-  justify-content: space-around;
+* {
+  box-sizing: border-box;
 }
-.fa-battery-full {
-  font-size: 16px;
+.container {
+  margin: 32px;
 }
-.fa-battery-three-quarters {
-  font-size: 32px;
+.rect {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  transition-property: width, opacity;
+  transition-duration: 2s, 0.5s;
+  margin-bottom: 16px;
+  opacity: 0.5;
+  text-align: center;
+  line-height: 100px;
 }
-.fa-battery-half {
-  font-size: 64px;
+.rect:hover {
+  opacity: 1;
+  width: 100%;
 }
-.fa-battery-quarter {
-  font-size: 128px;
+.rect.linear {
+  transition-timing-function: linear;
 }
-.fa-battery-empty {
-  font-size: 256px;
+.rect.easy {
+  transition-timing-function: ease;
+}
+.rect.easy-in {
+  transition-timing-function: ease-in;
+}
+.rect.easy-out {
+  transition-timing-function: ease-out;
+}
+.rect.easy-in-out {
+  transition-timing-function: ease-in-out;
 }
