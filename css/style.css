@@ -61,12 +61,13 @@ footer {
   height: 2em;
   margin-bottom: 0.5em;
   line-height: 2em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .nav-list-link {
   text-decoration: none;
   color: #fff;
   padding: 0 0.5em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
