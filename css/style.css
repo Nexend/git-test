@@ -14,9 +14,7 @@ body {
 .main {
   display: flex;
 }
-h1 {
-  margin: 0;
-  line-height: 2em;
+.header {
   text-align: center;
   color: #fff;
   background-image: linear-gradient(60deg, red, orange);
