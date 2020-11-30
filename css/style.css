@@ -1,35 +1,37 @@
 * {
   box-sizing: border-box;
 }
-body {
+.container {
   display: flex;
   height: 100vh;
 }
-.fancy-button {
-  width: 150px;
-  height: 50px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+.spinner {
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 4px;
-  border: none;
-  color: white;
-  background-image: linear-gradient(45deg, yellow, red);
+  animation: blinking 2s infinite linear;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgrey;
+  border-top: solid black;
+  border-radius: 50%;
   margin: auto;
-  animation: jump 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out,
-    hide 1s 2s ease forwards;
+  margin-bottom: 8px;
+  animation: spin 2s linear infinite;
 }
 
-@keyframes jump {
+@keyframes blinking {
   0% {
-    transform: translateY(0);
+    opacity: 0;
   }
   50% {
-    transform: translateY(-40px);
+    opacity: 1;
   }
   100% {
-    transform: translateY(0);
+    opacity: 0;
   }
 }
 @keyframes spin {
@@ -38,13 +40,5 @@ body {
   }
   to {
     transform: rotate(360deg);
-  }
-}
-@keyframes hide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(2000px);
   }
 }
