@@ -38,7 +38,7 @@ html {
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 0 0.5em;
+  padding-left: 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -51,7 +51,7 @@ html {
 }
 @media screen and (min-width: 600px) {
   .navigation {
-    display: inline-block;
+    display: block;
   }
   .header__btn {
     display: none;
