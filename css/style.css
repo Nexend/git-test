@@ -32,6 +32,12 @@ span {
   .products {
     display: flex;
   }
+  .products-list {
+    width: 50%;
+  }
+  .navigation {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 900px) {
   .content {
@@ -43,4 +49,5 @@ span {
   .news {
     flex: 1 0;
   }
+
 }
